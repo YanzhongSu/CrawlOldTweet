@@ -88,8 +88,8 @@ class TweetManager:
 		        # print "Hashtags: %s\n" % t.hashtags
 				# print type(tweet.date)
 				# print type(tweet.text)
-				print tweet.text.encode("utf-8")
-				print tweet.date
+				print (tweet.text.encode("utf-8"))
+				print (tweet.date)
 				#print tweet.text.encode("utf-8").decode("utf-8")
 				# print detect(tweet.text)
 				# data_coffee = {"Username": tweet.username, "Retweets": tweet.retweets, "Text": tweet.text.encode("utf-8"), "Mentions": tweet.mentions, "Hashtages": tweet.hashtags, "Date": tweet.date.__str__()}
