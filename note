@@ -1,0 +1,75 @@
+use twitter
+db.createUser(
+    {
+      user: "suyanzhong	",
+      pwd: "abcd",
+      roles: [
+              "readWrite"
+    ]
+    }
+)
+
+db.createUser(
+   {
+     user: "syz",
+     pwd: "password",
+     roles: [ "readWrite" ]
+   }
+)
+client = MongoClient('mongodb://user:password@52.211.37.84:27017/test')
+
+client = MongoClient('mongodb://syz:password@ec2-52-211-37-84.eu-west-1.compute.amazonaws.com:27017/twitter')
+
+mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]
+from pymongo import MongoClient
+
+client = MongoClient('mongodb://suyanzhong:abcd@localhost/test')
+db = client.health_data
+
+sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+
+ec2-52-211-37-84.eu-west-1.compute.amazonaws.com
+
+[Unit]
+Description=High-performance, schema-free document-oriented database
+After=network.target
+
+[Service]
+User=mongodb
+ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
+
+[Install]
+WantedBy=multi-user.target
+
+Last login: Tue Nov 15 01:46:01 2016 from 152.78.0.207
+ubuntu@ip-172-31-44-217:~$ screen
+[detached from 2449.pts-4.ip-172-31-44-217]
+ubuntu@ip-172-31-44-217:~$ 
+
+cursor = collection.find(no_cursor_timeout=True)
+
+cat /etc/hostname
+ip-172-31-44-217
+127.0.0.1   localhost
+127.0.1.1   server
+
+Corn:
+10.9, 
+db.corn_collection
+
+Sugar:
+2016-10-30 17:53:04 breakpoint
+28日，break point
+2016-10-25 21:39:02 break point
+2016-10-21 11:36:27
+2016-10-20 04:24:03
+2016-10-18 04:32:07
+2016-10-17 10:42:06
+2016-10-13 11:13:54
+2016-10-10 17:35:41
+2016-10-09 17:08:12
+2016-10-06 23:35:30
+2016-10-04 11:14:34
+
+
+ls -l --block-size=M
