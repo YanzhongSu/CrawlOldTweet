@@ -22,7 +22,7 @@ class TweetManager:
 		active = True
 		file_name = "corn1.json"
 		import datetime
-		from langdetect import detect
+		# from langdetect import detect
 		from pymongo import MongoClient
 		client = MongoClient('mongodb://localhost:27017')
 		db = client.test
