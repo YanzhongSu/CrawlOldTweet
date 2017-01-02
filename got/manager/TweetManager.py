@@ -24,7 +24,7 @@ class TweetManager:
 		import datetime
 		# from langdetect import detect
 		from pymongo import MongoClient
-		client = MongoClient('mongodb://localhost:27017')
+		client = MongoClient('mongodb://syz:password@svm-ys3n15-comp6235-temp.ecs.soton.ac.uk:27017/test')
 		db = client.test
 		collection = db.starbucks_collection
 		while active:
